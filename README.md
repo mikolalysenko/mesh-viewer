@@ -18,6 +18,8 @@ shell.on("gl-render", function() {
 })
 ```
 
+[Try it out on requirebin!](http://requirebin.com/?gist=6291076)
+
 Install
 =======
 
