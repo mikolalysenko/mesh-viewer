@@ -1,0 +1,35 @@
+{
+  "name": "mesh-viewer",
+  "version": "0.0.0",
+  "description": "Just draws meshes",
+  "main": "viewer.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "game-shell-orbit-camera": "~0.0.0",
+    "gl-matrix": "~2.0.0",
+    "gl-now": "~0.0.4",
+    "gl-simplicial-complex": "~0.0.0"
+  },
+  "devDependencies": {
+    "bunny": "~1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/mesh-viewer.git"
+  },
+  "keywords": [
+    "mesh",
+    "viewer",
+    "webgl"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/mesh-viewer/issues"
+  }
+}
