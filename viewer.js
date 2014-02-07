@@ -24,7 +24,7 @@ Mesh.prototype.update = function updateMesh(params) {
     cellNormals: params.cellNormals,
     useFacetNormals: params.useFacetNormals || options.useFacetNormals,
     pointSizes: params.pointSizes,
-    pointSize: params.pointSize || options.pointSize
+    pointSize: params.pointSize || options.pointSize || 1.0
   })
 }
 
@@ -74,7 +74,7 @@ function createViewer(options) {
       cellNormals: params.cellNormals,
       useCellNormals: params.useCellNormals || options.useCellNormals,
       pointSizes: params.pointSizes,
-      pointSize: params.pointSize || options.pointSize
+      pointSize: params.pointSize || options.pointSize || 1.0
     })
     return new Mesh(shell, m, params.model || mat4.identity(mat4.create()) )
   }

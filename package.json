@@ -1,6 +1,6 @@
 {
   "name": "mesh-viewer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Just draws meshes",
   "main": "viewer.js",
   "directories": {
@@ -10,7 +10,7 @@
     "game-shell-orbit-camera": "~0.0.0",
     "gl-matrix": "~2.0.0",
     "gl-now": "~0.0.4",
-    "gl-simplicial-complex": "~0.0.0"
+    "gl-simplicial-complex": "~0.0.1"
   },
   "devDependencies": {
     "bunny": "~1.0.0"
