@@ -53,6 +53,8 @@ Mesh.prototype.dispose = function disposeMesh() {
 
 function createViewer(options) {
   options = options || {}
+
+  options.tickRate = options.tickRate || 1
   
   var shell = createShell(options)
   var camera = createOrbitCamera(shell)
